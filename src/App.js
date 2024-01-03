@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Navbar/>
       <Routes>
-        <Route path="/" element={<Testimonials />}/>
-        <Route path="/" element={<Timeline />}/>
+        <Route path="/testimonials" element={<Testimonials />}/>
+        <Route path="/timeline" element={<Timeline />}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
